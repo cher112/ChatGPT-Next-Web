@@ -23,7 +23,7 @@ const isApp = !!getClientConfig()?.isApp;
 export type SyncStore = GetStoreState<typeof useSyncStore>;
 
 const DEFAULT_SYNC_STATE = {
-  provider: ProviderType.WebDAV,
+  provider: ProviderType.UpStash,
   enableAutoSync: true,
   useProxy: true,
   proxyUrl: ApiPath.Cors as string,
